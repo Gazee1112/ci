@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Blank Page</h1>
+            <h1>Perpustakaan</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Blank Page</li>
+              <li class="breadcrumb-item active">Perpustakaan</li>
             </ol>
           </div>
         </div>
@@ -19,9 +19,9 @@
 
     <!-- Main content -->
     <section class="content">
-<?php foreach($css_files as $file): ?>
-	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
-<?php endforeach; ?>
+      <?php foreach ($css_files as $file) : ?>
+        <link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
+      <?php endforeach; ?>
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
@@ -37,15 +37,15 @@
           </div>
         </div>
         <div class="card-body">
-       
-	        <div style='height:20px;'></div>  
-		    <div style="padding: 10px">
-				<?php echo $output; ?>
-		    </div>
-		    <?php foreach($js_files as $file): ?>
-		        <script src="<?php echo $file; ?>"></script>
-		    <?php endforeach; ?>
-     	</div>
+
+          <div style='height:20px;'></div>
+          <div style="padding: 10px">
+            <?php echo $output; ?>
+          </div>
+          <?php foreach ($js_files as $file) : ?>
+            <script src="<?php echo $file; ?>"></script>
+          <?php endforeach; ?>
+        </div>
         <!-- /.card-body -->
         <div class="card-footer">
           Footer

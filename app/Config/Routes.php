@@ -48,6 +48,34 @@ $routes->get('examples/products_management', 'Examples::products_management');
 $routes->get('examples/products_management/(:any)', 'Examples::products_management/$1');
 $routes->post('examples/products_management/(:any)', 'Examples::products_management/$1');
 
+$routes->get('examples/pengunjung_management', 'Examples::pengunjung_management');
+$routes->get('examples/pengunjung_management/(:any)', 'Examples::pengunjung_management/$1');
+$routes->post('examples/pengunjung_management/(:any)', 'Examples::pengunjung_management/$1');
+
+$routes->get('examples/buku_management', 'Examples::buku_management');
+$routes->get('examples/buku_management/(:any)', 'Examples::buku_management/$1');
+$routes->post('examples/buku_management/(:any)', 'Examples::buku_management/$1');
+
+$routes->get('examples/karyawan_management', 'Examples::karyawan_management');
+$routes->get('examples/karyawan_management/(:any)', 'Examples::karyawan_management/$1');
+$routes->post('examples/karyawan_management/(:any)', 'Examples::karyawan_management/$1');
+
+$routes->get('examples/bukuHadir_management', 'Examples::bukuHadir_management');
+$routes->get('examples/bukuHadir_management/(:any)', 'Examples::bukuHadir_management/$1');
+$routes->post('examples/bukuHadir_management/(:any)', 'Examples::bukuHadir_management/$1');
+
+$routes->get('examples/peminjaman_management', 'Examples::peminjaman_management');
+$routes->get('examples/peminjaman_management/(:any)', 'Examples::peminjaman_management/$1');
+$routes->post('examples/peminjaman_management/(:any)', 'Examples::peminjaman_management/$1');
+
+$routes->get('examples/pengembalian_management', 'Examples::pengembalian_management');
+$routes->get('examples/pengembalian_management/(:any)', 'Examples::pengembalian_management/$1');
+$routes->post('examples/pengembalian_management/(:any)', 'Examples::pengembalian_management/$1');
+
+$routes->get('examples/denda', 'Examples::denda');
+$routes->get('examples/denda/(:any)', 'Examples::denda/$1');
+$routes->post('examples/denda/(:any)', 'Examples::denda/$1');
+
 
 /*
  * --------------------------------------------------------------------

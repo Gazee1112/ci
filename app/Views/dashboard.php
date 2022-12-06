@@ -5,12 +5,12 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Blank Page</h1>
+            <h1>Perpustakaan</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="#">Home</a></li>
-              <li class="breadcrumb-item active">Blank Page</li>
+              <li class="breadcrumb-item active">Perpustakaan</li>
             </ol>
           </div>
         </div>
@@ -23,7 +23,7 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Title</h3>
+          <h3 class="card-title"></h3>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -49,4 +49,4 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <script src="<?=base_url('adminLTE/plugins/jquery/jquery.min.js')?>"></script>
+  <script src="<?= base_url('adminLTE/plugins/jquery/jquery.min.js') ?>"></script>

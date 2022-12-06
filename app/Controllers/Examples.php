@@ -38,6 +38,98 @@ class Examples extends BaseController
         return $this->_exampleOutput($output);
     }
 
+    public function pengunjung_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('pengunjung');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function buku_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('buku');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function karyawan_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('karyawan');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function bukuHadir_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('buku_hadir');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function peminjaman_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('peminjaman');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function pengembalian_management()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('pengembalian');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+    public function denda()
+    {
+        $crud = new GroceryCrud();
+
+
+        $crud->setTable('denda');
+
+
+        $output = $crud->render();
+
+
+        return $this->_exampleOutput($output);
+    }
+
     public function orders_management()
     {
         $crud = new GroceryCrud();

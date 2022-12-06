@@ -3,7 +3,7 @@
   <!-- Brand Logo -->
   <a href="#" class="brand-link">
     <img src="<?= base_url('adminLTE/dist/img/AdminLTELogo.png') ?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light">AdminLTE 3</span>
+    <span class="brand-text font-weight-light">Admin Perpustakaan</span>
   </a>
 
   <!-- Sidebar -->
@@ -14,7 +14,7 @@
         <img src="<?= base_url('adminLTE/dist/img/user2-160x160.jpg') ?>" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="#" class="d-block">Alexander Pierce</a>
+        <a href="#" class="d-block">Jundullah Alhafidz</a>
       </div>
     </div>
 
@@ -45,21 +45,51 @@
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
+              <a href="<?php echo site_url('examples/pengunjung_management') ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Pengunjung</p>
+              </a>
+            </li>
+            <li class="nav-item">
               <a href="<?php echo site_url('examples/anggota_management') ?>" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
                 <p>Anggota</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?php echo site_url('examples/orders_management') ?>" class="nav-link">
+              <a href="<?php echo site_url('examples/buku_management') ?>" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Orders</p>
+                <p>Buku</p>
               </a>
             </li>
             <li class="nav-item">
-              <a href="<?php echo site_url('examples/products_management') ?>" class="nav-link">
+              <a href="<?php echo site_url('examples/karyawan_management') ?>" class="nav-link">
                 <i class="far fa-circle nav-icon"></i>
-                <p>Products</p>
+                <p>Karyawan</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo site_url('examples/bukuHadir_management') ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Buku Hadir</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo site_url('examples/peminjaman_management') ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Peminjaman</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo site_url('examples/pengembalian_management') ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Pengembalian</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo site_url('examples/denda') ?>" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Denda</p>
               </a>
             </li>
           </ul>
